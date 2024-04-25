@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .nav_logo {
+      display: flex;
+      justify-content: end;
+      justify-content: space-between;
+      background-color: rgb(191, 210, 227);
+
+    }
+
+    .nav_bar ul {
+      display: flex;
+
+    }
+
+    .nav_bar ul li {
+      list-style-type: none;
+      padding: 20px;
+    }
+
+    .nav_bar ul li a {
+      text-decoration: none;
+    }
+
+    .body_design {
+      background-color:rgb(219, 215, 207);
+       height: 200px;
+    }
+
+    /* .body_design  {
+      display: flex;
+      justify-content: space-between;
+
+  
+    } */
+    .body_design img {
+
+      max-height: 200px;
+      max-width: 1200px;
+      padding-top: 15px;
+      padding: 40px;
+
+    }
+    .body_design img:hover{
+
+      scale: 2;
+    }
+    @media screen and (max-width:360px) {
+      body {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav_logo">
+    <div>
+      <logo><img src="" </logo>
+    </div>
+    <nav class="nav_bar">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">data</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">course</a></li>
+        <li><a href="#">fees</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="body_design">
+    <div>
+     <marquee>
+  
+      <img src="study.jpg">
+      <img src="study.jpg">
+      <img src="study.jpg">
+      <img src="study.jpg">
+      <img src="study.jpg">
+    </marquee>
+    </div>
+  <!-- </div><div>
+    <input type="text" placeholder="frist name">
+    <input type="text" placeholder="last name">
+    <input type="text" placeholder="frist name">
+    <input type="email" placeholder="email id">
+    <input type="button" placeholder="submit">
+
+  </div> -->
+</body>
+</html>
